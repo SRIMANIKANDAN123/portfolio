@@ -583,7 +583,7 @@ function Achievements() {
   const items = [
     {
       icon: Trophy,
-       image: "public/SIH.jpeg",
+       image: "https://media.licdn.com/dms/image/v2/D4E22AQHUene8-k-NAg/feedshare-shrink_800/B4EZsI4pITGQAg-/0/1765380762670?e=1785369600&v=beta&t=U4WcnVj66Wl_kp1xtFUT1R51xZ1YHWrtlE-V0KluUxw",
       title: "SIH 2025 — 1st Prize, All India",
       meta: "Team INNOVIT1856",
       desc: "Won the Smart India Hackathon 2025 at the All India level with a cash prize of ₹1,50,000.",
@@ -591,7 +591,7 @@ function Achievements() {
     },
     {
       icon: Award,
-       image: "public/NPTEL_D.jpeg",
+       image: "https://media.licdn.com/dms/image/v2/D5622AQGDmDAReOcrmg/feedshare-image-high-res/B56Z67xHoqIUAY-/0/1781266676745?e=1785369600&v=beta&t=UcruYmMBnnM-nvrZ7uIDuhYeti1UPys7MSLwc4CNRx0",
       title: "NPTEL Discipline Star",
       meta: "Jan — Apr 2026",
       desc: "Recognized by NPTEL/IIT Madras for consistent, disciplined performance across courses.",
@@ -599,7 +599,7 @@ function Achievements() {
     },
     {
       icon: Award,
-       image: "public/NPTEL_M.jpeg",
+       image: "https://media.licdn.com/dms/image/v2/D5622AQEgG-Ea9WCkVA/feedshare-shrink_1280/B56Zwe9ZnKIQAc-/0/1770045938369?e=1785369600&v=beta&t=WQK3OS2et15b8AefD60ZpSjI6LECj33QCq-ZbD9RGPM",
       title: "NPTEL Motivated Learner",
       meta: "Jul — Dec 2025",
       desc: "Recognized for completing 8+ NPTEL courses with strong scores across four semesters.",
@@ -616,7 +616,7 @@ function Achievements() {
     },
     {
       icon: Sparkles,
-       image: "public/MI.png",
+       image: "https://media.licdn.com/dms/image/v2/D5622AQEIJA0zfZThMg/feedshare-shrink_1280/B56Zb19YT9HgAk-/0/1747883367081?e=1785369600&v=beta&t=cP5ewsTk6m-J7QkIwtTLpQNUplfmfCgVWwWcybuNPlc",
       title: "Event Coordinator — Mime & Prime",
       meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
       desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
