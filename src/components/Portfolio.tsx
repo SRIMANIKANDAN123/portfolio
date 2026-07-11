@@ -583,7 +583,7 @@ function Achievements() {
   const items = [
     {
       icon: Trophy,
-       image: "https://media.licdn.com/dms/image/v2/D4E22AQHUene8-k-NAg/feedshare-shrink_800/B4EZsI4pITGQAg-/0/1765380762670?e=1785369600&v=beta&t=U4WcnVj66Wl_kp1xtFUT1R51xZ1YHWrtlE-V0KluUxw",
+       image: "https://media.licdn.com/dms/image/v2/D4E22AQEtqkG4XqSARA/feedshare-shrink_800/B4EZsI4pIvGUAk-/0/1765380761926?e=1785369600&v=beta&t=mbs-N8BwE_sIRYmUQOBWDQYSy6tDfiSoauWaTz6sUwQ",
       title: "SIH 2025 — 1st Prize, All India",
       meta: "Team INNOVIT1856",
       desc: "Won the Smart India Hackathon 2025 at the All India level with a cash prize of ₹1,50,000.",
@@ -604,32 +604,32 @@ function Achievements() {
       meta: "Jul — Dec 2025",
       desc: "Recognized for completing 8+ NPTEL courses with strong scores across four semesters.",
       color: C.mint,
-    },
-    {
-      icon: Briefcase,
-       image: "public/Internship.png",
-      title: "Internship — Gateway Software Solution",
-      meta: "1 Month",
-      desc: "Completed a one-month internship, gaining hands-on industry development experience.",
-      color: C.plum,
-      dark: true,
-    },
-    {
-      icon: Sparkles,
-       image: "https://media.licdn.com/dms/image/v2/D5622AQEIJA0zfZThMg/feedshare-shrink_1280/B56Zb19YT9HgAk-/0/1747883367081?e=1785369600&v=beta&t=cP5ewsTk6m-J7QkIwtTLpQNUplfmfCgVWwWcybuNPlc",
-      title: "Event Coordinator — Mime & Prime",
-      meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
-      desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
-      color: C.tomato,
-    },
-    {
-      icon: Star,
-       image: "public/IEEE.webp",
-      title: "IEEE CIS Society Member",
-      meta: "Sri Sairam Institute of Technology",
-      desc: "Active member of the IEEE Computational Intelligence Society; co-coordinated several technical events.",
-      color: C.mustard,
-    },
+    }
+    // {
+    //   icon: Briefcase,
+    //    image: "public/Internship.png",
+    //   title: "Internship — Gateway Software Solution",
+    //   meta: "1 Month",
+    //   desc: "Completed a one-month internship, gaining hands-on industry development experience.",
+    //   color: C.plum,
+    //   dark: true,
+    // },
+    // {
+    //   icon: Sparkles,
+    //    image: "https://media.licdn.com/dms/image/v2/D5622AQGX3oSPnThpuw/feedshare-shrink_800/B56Zb19YT9GoAg-/0/1747883361470?e=1785369600&v=beta&t=n8Ejxd-upwDjeVlsqIzWc1ClsBvjLmbZttfsUWUSlbo",
+    //   title: "Event Coordinator — Mime & Prime",
+    //   meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
+    //   desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
+    //   color: C.tomato,
+    // },
+    // {
+    //   icon: Star,
+    //    image: "public/IEEE.webp",
+    //   title: "IEEE CIS Society Member",
+    //   meta: "Sri Sairam Institute of Technology",
+    //   desc: "Active member of the IEEE Computational Intelligence Society; co-coordinated several technical events.",
+    //   color: C.mustard,
+    // },
   ];
   return (
     <section id="achievements" className="px-6 py-24 bg-white border-y-2 border-[color:var(--color-ink)]">
