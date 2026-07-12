@@ -227,13 +227,13 @@ function Hero() {
     <section id="home" className="relative pt-32 pb-20 px-6 overflow-hidden">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1fr_1fr]">
         <div>
-         <motion.div
+        <motion.div
   initial={{ opacity: 0, y: 12 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.05 }}
-  className="mb-6 flex items-center gap-4"
+  className="mb-6 flex flex-wrap items-center gap-4"
 >
-  <div className="relative h-80 w-80 shrink-0 overflow-hidden border-2 border-[color:var(--color-ink)] shadow-[4px_4px_0_0_var(--color-ink)]">
+  <div className="relative h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 shrink-0 overflow-hidden border-2 border-[color:var(--color-ink)] shadow-[4px_4px_0_0_var(--color-ink)]">
     <img
       src="https://media.licdn.com/dms/image/v2/D5603AQHDLzCXX6nhCg/profile-displayphoto-scale_400_400/B56Z21uXJRGUAg-/0/1776870332730?e=1785369600&v=beta&t=iVPghH72NsHVQoJzxGsz4Jxr5BouUnNV4JwQOVGcnU4"
       alt="Sri Manikandan"
@@ -646,13 +646,13 @@ function Achievements() {
   whileHover={{ y: -6 }}
   className="flex flex-col items-center text-center border-2 border-[color:var(--color-ink)] bg-[color:var(--color-paper)] p-8 shadow-[6px_6px_0_0_var(--color-ink)]"
 >
-  <div className="mb-5 inline-grid h-90 w-90 place-items-center overflow-hidden border-2 border-[color:var(--color-ink)]" style={{ background: it.color }}>
-    {it.image ? (
-      <img src={it.image} alt={it.title} className="h-full w-full object-cover" />
-    ) : (
-      <it.icon className="h-20 w-30" />
-    )}
-  </div>
+<div className="mb-5 inline-grid h-40 w-40 sm:h-52 sm:w-52 md:h-64 md:w-64 place-items-center overflow-hidden border-2 border-[color:var(--color-ink)]" style={{ background: it.color }}>
+  {it.image ? (
+    <img src={it.image} alt={it.title} className="h-full w-full object-cover" />
+  ) : (
+    <it.icon className="h-16 w-16 sm:h-20 sm:w-20" />
+  )}
+</div>
   <div className="font-mono text-xs uppercase tracking-widest text-[color:var(--color-ink)]/60">{it.meta}</div>
   <div className="font-display text-2xl mt-2 leading-snug">{it.title}</div>
   <p className="mt-3 text-base text-[color:var(--color-ink)]/80">{it.desc}</p>
