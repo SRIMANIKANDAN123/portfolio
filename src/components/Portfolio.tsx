@@ -235,7 +235,7 @@ function Hero() {
 >
   <div className="relative h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 shrink-0 overflow-hidden border-2 border-[color:var(--color-ink)] shadow-[4px_4px_0_0_var(--color-ink)]">
     <img
-      src="https://media.licdn.com/dms/image/v2/D5603AQHDLzCXX6nhCg/profile-displayphoto-scale_400_400/B56Z21uXJRGUAg-/0/1776870332730?e=1785369600&v=beta&t=iVPghH72NsHVQoJzxGsz4Jxr5BouUnNV4JwQOVGcnU4"
+      src="public/mani.png"
       alt="Sri Manikandan"
       className="h-full w-full object-cover"
     />
@@ -355,13 +355,29 @@ function Marquee() {
 function PurpleBand() {
   return (
     <section className="relative overflow-hidden bg-[color:var(--color-plum)] px-6 py-20 text-[color:var(--color-paper)]">
-      {/* decorative squares */}
-      <div className="absolute left-0 top-6 h-16 w-16 bg-[color:var(--color-plum)] border-2 border-[color:var(--color-tomato)]" />
+   
+      {/* <div className="absolute left-0 top-6 h-16 w-16 bg-[color:var(--color-plum)] border-2 border-[color:var(--color-tomato)]" />
       <div className="absolute left-8 top-24 h-16 w-16 bg-[color:var(--color-tomato)]" />
-      <div className="absolute left-24 top-40 h-16 w-16 bg-[color:var(--color-tomato)]" />
+     
 
-      <div className="absolute right-0 bottom-6 h-16 w-16 bg-[color:var(--color-mustard)]" />
-      <div className="absolute right-16 bottom-24 h-16 w-16 bg-[color:var(--color-mint)]" />
+       <div className="absolute right-0 bottom-32 h-16 w-16 bg-[color:var(--color-mustard)]" /> 
+       <div className="absolute right-12 bottom-42 h-16 w-16 bg-[color:var(--color-mint)]" /> */}
+  <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className="absolute right-[2%] top-[52%] animate-spin-slow"
+      >
+        <Star className="h-8 w-8 fill-[color:var(--color-ink)] text-[color:var(--color-ink)]" />
+      </motion.div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className="absolute left-[2%] top-[52%] animate-spin-slow"
+      >
+        <Star className="h-8 w-8 fill-[color:var(--color-ink)] text-[color:var(--color-ink)]" />
+      </motion.div>
 
       <div className="mx-auto max-w-2xl text-center">
         <motion.p
@@ -473,7 +489,7 @@ function Projects() {
   const projects = [
     { title: "Instagram Clone", tag: "MERN STACK", desc: "Real-time collaborative task board with drag-and-drop, activity feed and dark mode.", color: C.tomato },
    { title: "SIH PROJECT", tag: "MERN STACK", desc: "Frontend web application built with the MERN stack for Smart India Hackathon 2025 (Team INNOVIT1856).", color: C.mustard },
-    { title: "Portfolio CMS", tag: "Fullstack", desc: "Headless CMS built in Java + React for managing creative portfolios.", color: C.mint },
+    { title: "Portfolio CMS", tag: "Fullstack", desc: "Headless CMS built in  React for managing creative portfolios.", color: C.mint },
     
   ];
   return (
@@ -583,7 +599,7 @@ function Achievements() {
   const items = [
     {
       icon: Trophy,
-       image: "https://media.licdn.com/dms/image/v2/D4E22AQEtqkG4XqSARA/feedshare-shrink_800/B4EZsI4pIvGUAk-/0/1765380761926?e=1785369600&v=beta&t=mbs-N8BwE_sIRYmUQOBWDQYSy6tDfiSoauWaTz6sUwQ",
+       image: "public/SIH.jpeg",
       title: "SIH 2025 — 1st Prize, All India",
       meta: "Team INNOVIT1856",
       desc: "Won the Smart India Hackathon 2025 at the All India level with a cash prize of ₹1,50,000.",
@@ -591,7 +607,7 @@ function Achievements() {
     },
     {
       icon: Award,
-       image: "https://media.licdn.com/dms/image/v2/D5622AQGDmDAReOcrmg/feedshare-image-high-res/B56Z67xHoqIUAY-/0/1781266676745?e=1785369600&v=beta&t=UcruYmMBnnM-nvrZ7uIDuhYeti1UPys7MSLwc4CNRx0",
+       image: "public/NPTEL_D.jpeg",
       title: "NPTEL Discipline Star",
       meta: "Jan — Apr 2026",
       desc: "Recognized by NPTEL/IIT Madras for consistent, disciplined performance across courses.",
@@ -599,37 +615,37 @@ function Achievements() {
     },
     {
       icon: Award,
-       image: "https://media.licdn.com/dms/image/v2/D5622AQEgG-Ea9WCkVA/feedshare-shrink_1280/B56Zwe9ZnKIQAc-/0/1770045938369?e=1785369600&v=beta&t=WQK3OS2et15b8AefD60ZpSjI6LECj33QCq-ZbD9RGPM",
+       image: "public/NPTEL_M.jpeg",
       title: "NPTEL Motivated Learner",
       meta: "Jul — Dec 2025",
       desc: "Recognized for completing 8+ NPTEL courses with strong scores across four semesters.",
       color: C.mint,
-    }
-    // {
-    //   icon: Briefcase,
-    //    image: "public/Internship.png",
-    //   title: "Internship — Gateway Software Solution",
-    //   meta: "1 Month",
-    //   desc: "Completed a one-month internship, gaining hands-on industry development experience.",
-    //   color: C.plum,
-    //   dark: true,
-    // },
-    // {
-    //   icon: Sparkles,
-    //    image: "https://media.licdn.com/dms/image/v2/D5622AQGX3oSPnThpuw/feedshare-shrink_800/B56Zb19YT9GoAg-/0/1747883361470?e=1785369600&v=beta&t=n8Ejxd-upwDjeVlsqIzWc1ClsBvjLmbZttfsUWUSlbo",
-    //   title: "Event Coordinator — Mime & Prime",
-    //   meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
-    //   desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
-    //   color: C.tomato,
-    // },
-    // {
-    //   icon: Star,
-    //    image: "public/IEEE.webp",
-    //   title: "IEEE CIS Society Member",
-    //   meta: "Sri Sairam Institute of Technology",
-    //   desc: "Active member of the IEEE Computational Intelligence Society; co-coordinated several technical events.",
-    //   color: C.mustard,
-    // },
+    },
+    {
+      icon: Briefcase,
+       image: "public/Internship.png",
+      title: "Internship — Gateway Software Solution",
+      meta: "1 Month",
+      desc: "Completed a one-month internship, gaining hands-on industry development experience.",
+      color: C.plum,
+      dark: true,
+    },
+    {
+      icon: Sparkles,
+       image: "public/MIME.png",
+      title: "Event Coordinator — Mime & Prime",
+      meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
+      desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
+      color: C.tomato,
+    },
+    {
+      icon: Star,
+       image: "public/IEEE.png",
+      title: "IEEE CIS Society Member",
+      meta: "Sri Sairam Institute of Technology",
+      desc: "Active member of the IEEE Computational Intelligence Society; co-coordinated several technical events.",
+      color: C.mustard,
+    },
   ];
   return (
     <section id="achievements" className="px-6 py-24 bg-white border-y-2 border-[color:var(--color-ink)]">
