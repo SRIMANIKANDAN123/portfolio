@@ -235,7 +235,7 @@ function Hero() {
 >
   <div className="relative h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 shrink-0 overflow-hidden border-2 border-[color:var(--color-ink)] shadow-[4px_4px_0_0_var(--color-ink)]">
     <img
-      src="photos/mani.png"
+      src=".output/public/mani.png"
       alt="Sri Manikandan"
       className="h-full w-full object-cover"
     />
@@ -599,7 +599,7 @@ function Achievements() {
   const items = [
     {
       icon: Trophy,
-       image: "photos/SIH.jpeg",
+       image: ".output/public/SIH.jpeg",
       title: "SIH 2025 — 1st Prize, All India",
       meta: "Team INNOVIT1856",
       desc: "Won the Smart India Hackathon 2025 at the All India level with a cash prize of ₹1,50,000.",
@@ -607,7 +607,7 @@ function Achievements() {
     },
     {
       icon: Award,
-       image: "photos/NPTEL_D.jpeg",
+       image: ".output/public/NPTEL_D.jpeg",
       title: "NPTEL Discipline Star",
       meta: "Jan — Apr 2026",
       desc: "Recognized by NPTEL/IIT Madras for consistent, disciplined performance across courses.",
@@ -615,7 +615,7 @@ function Achievements() {
     },
     {
       icon: Award,
-       image: "photos/NPTEL_M.jpeg",
+       image: ".output/public/NPTEL_M.jpeg",
       title: "NPTEL Motivated Learner",
       meta: "Jul — Dec 2025",
       desc: "Recognized for completing 8+ NPTEL courses with strong scores across four semesters.",
@@ -623,7 +623,7 @@ function Achievements() {
     },
     {
       icon: Briefcase,
-       image: "photos/Internship.png",
+       image: ".output/public/Internship.png",
       title: "Internship — Gateway Software Solution",
       meta: "1 Month",
       desc: "Completed a one-month internship, gaining hands-on industry development experience.",
@@ -632,7 +632,7 @@ function Achievements() {
     },
     {
       icon: Sparkles,
-       image: "photos/MIME.png",
+       image: ".output/public/MIME.png",
       title: "Event Coordinator — Mime & Prime",
       meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
       desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
@@ -640,7 +640,7 @@ function Achievements() {
     },
     {
       icon: Star,
-       image: "photos/IEEE.png",
+       image: ".output/public/IEEE.png",
       title: "IEEE CIS Society Member",
       meta: "Sri Sairam Institute of Technology",
       desc: "Active member of the IEEE Computational Intelligence Society; co-coordinated several technical events.",
