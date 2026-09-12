@@ -235,7 +235,7 @@ function Hero() {
 >
   <div className="relative h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 shrink-0 overflow-hidden border-2 border-[color:var(--color-ink)] shadow-[4px_4px_0_0_var(--color-ink)]">
     <img
-      src=".output/public/mani.png"
+      src="/.output/public/mani.png"
       alt="Sri Manikandan"
       className="h-full w-full object-cover"
     />
@@ -599,7 +599,7 @@ function Achievements() {
   const items = [
     {
       icon: Trophy,
-       image: ".output/public/SIH.jpeg",
+       image: "/.output/public/SIH.jpeg",
       title: "SIH 2025 — 1st Prize, All India",
       meta: "Team INNOVIT1856",
       desc: "Won the Smart India Hackathon 2025 at the All India level with a cash prize of ₹1,50,000.",
@@ -632,7 +632,7 @@ function Achievements() {
     },
     {
       icon: Sparkles,
-       image: ".output/public/MIME.png",
+       image: "/.output/public/MIME.png",
       title: "Event Coordinator — Mime & Prime",
       meta: "Infinitrix 2025, Maths Club, Sri Sairam IT",
       desc: "Coordinated the Mime & Prime event on International Mathematics Day (14.03.2025).",
